@@ -58,17 +58,17 @@ message:
   title: "Rejoignez-nous !"
   icon: "far fa-lightbulb"
   content: |
-    Vous avez une idée de service à proposer aux étudiants ? Nous pouvons vous aider et soutenir ! Voici les outils que nous pouvons mettre à votre disposition :
+    Vous aimez créer et héberger des services ? Nous pouvons vous aider et soutenir ! Voici les outils que nous pouvons mettre à votre disposition :
     <ul>
         <li>- Sous-domaine</li>
         <li>- Authentification</li>
         <li>- Envoi d'emails</li>
         <li>- Hébergement</li>
-        <li>- Analytics (Plausible)</li>
+        <li>- Analytics (Umami)</li>
         <li>- Mise en avant</li>
     </ul>
     <br/>
-    Nous ne sommes pas affiliés à l'organisation dont le nom figure dans le nom de domaine. Nous sommes un groupe d'étudiants qui essayons de simplifier la vie des étudiants. Si vous avez des questions, n'hésitez pas à nous contacter !
+    Nous sommes un groupe d'individus totalement indépendants. Si vous avez des questions, n'hésitez pas à nous contacter !
 
 links:
   - name: "GitHub"
