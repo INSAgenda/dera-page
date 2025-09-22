@@ -9,7 +9,7 @@ documentTitle: "dera.page"
 # logo: "assets/logo.png"
 
 header: true
-footer: '<p>Créé par <a href="https://alix.anneraud.fr">Alix</a>, <a href="https://mastodon.insa.lol/@dimitri_timoz">Dimitri</a> et <a href="https://mastodon.insa.lol/@simon_girard">Simon</a></p>' # set false if you want to hide it.
+footer: '<p>Créé par <a href="https://alix.anneraud.fr">Alix</a>, <a href="https://mastodon.insa.lol/@dimitri_timoz">Dimitri</a> et <a href="https://github.com/Mubelotix">Simon</a></p>' # set false if you want to hide it.
 
 columns: "auto" # "auto" or number (must be a factor of 12: 1, 2, 3, 4, 6, 12)
 connectivityCheck: true
@@ -79,7 +79,7 @@ links:
     url: "https://discord.gg/TpdbUyfcbJ"
   - name: "Email"
     icon: "fa fa-envelope"
-    url: "mailto:sgirard@insa-rouen.fr,dtimoz@insa-rouen.fr,aanneraud@insa-rouen.fr"
+    url: "mailto:simon@dera.page,dimitri@dera.page,alix@dera.page"
   - name: "Status"
     icon: "fas fa-heartbeat"
     url: "https://status.dera.page/"
@@ -228,4 +228,4 @@ services:
         subtitle: "Consultez des statistiques variées sur l'école"
         tag: "stats"
         keywords: "statistiques et données"
-        url: "https://instagram.com/insa_stats"
+        url: "https://instagram.com/____genda"
