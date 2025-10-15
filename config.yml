@@ -78,7 +78,7 @@ links:
     icon: "fa-brands fa-discord"
     url: "https://discord.gg/TpdbUyfcbJ"
   - name: "Instagram"
-    icon: "fa fa-instagram"
+    icon: "fab fa-instagram"
     url: "https://instagram.com/____genda"
   - name: "Email"
     icon: "fa fa-envelope"
