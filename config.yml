@@ -105,6 +105,20 @@ services:
         keywords: "documents docs outline markdown latex"
         url: "https://docs.dera.page/"
 
+      - name: "Excalidraw"
+        logo: "assets/excalidraw.svg"
+        subtitle: "Dessinez, collaborez et visualisez vos idées facilement"
+        tag: "excalidraw"
+        keywords: "dessin collaboratif mindmap schéma croquis whiteboard"
+        url: "https://paint.dera.page/"
+
+      - name: "n8n"
+        logo: "assets/n8n.svg"
+        subtitle: "Automatisez vos tâches et connectez vos services sans code"
+        tag: "n8n"
+        keywords: "automatisation workflow no-code intégration api"
+        url: "https://n8n.dera.page/"
+
       # Abandonné
       # 
       # - name: "Wifi WPA"
@@ -180,12 +194,19 @@ services:
         keywords: "jeu et pixel art"
         url: "https://pixelwar.dera.page/"
 
-      - name: "Mastodon (abandonné)"
-        logo: "assets/mastodon.svg"
-        subtitle: "Suivez l'actualité de l'école"
-        tag: "mastodon"
-        keywords: "réseau social et microblogging"
-        url: "https://mastodon.insa.lol/public/local"
+      - name: "Wakapi"
+        logo: "assets/wakapi.svg"
+        subtitle: "Comptez et comparez votre activité de code avec vos amis"
+        tag: "wakapi"
+        keywords: "statistiques codage social classement temps de code"
+        url: "https://wakapi.dera.page/"
+
+      # - name: "Mastodon (abandonné)"
+      #   logo: "assets/mastodon.svg"
+      #   subtitle: "Suivez l'actualité de l'école"
+      #   tag: "mastodon"
+      #   keywords: "réseau social et microblogging"
+      #   url: "https://mastodon.insa.lol/public/local"
   
   - name: "Divertissement"
     icon: "fas fa-gamepad"
@@ -199,7 +220,7 @@ services:
       #   keywords: "films et séries gratuits"
       #   url: "https://www.vidbinge.com/"
 
-      # TODO: Le remettre
+      # Abandonné
       # 
       # - name: "Free-Picolo"
       #   logo: "assets/picolo.webp"
