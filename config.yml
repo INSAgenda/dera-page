@@ -167,7 +167,7 @@ services:
         subtitle: "Discutez avec les autres étudiants"
         tag: "matrix"
         keywords: "chat et messagerie instantanée"
-        url: "https://element.insa.lol/"
+        url: "https://matrix.dra.page/"
 
       # Pas encore disponible
       # 
