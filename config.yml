@@ -9,7 +9,7 @@ documentTitle: "dera.page"
 # logo: "assets/logo.png"
 
 header: true
-footer: '<p>Créé par <a href="https://alix.anneraud.fr">Alix</a>, <a href="https://mastodon.insa.lol/@dimitri_timoz">Dimitri</a> et <a href="https://github.com/Mubelotix">Simon</a></p>' # set false if you want to hide it.
+footer: '<p>Créé par <a href="https://alix.anneraud.fr">Alix</a>, <a href="https://github.com/DimitriTimoz">Dimitri</a> et <a href="https://github.com/Mubelotix">Simon</a></p>' # set false if you want to hide it.
 
 columns: "auto" # "auto" or number (must be a factor of 12: 1, 2, 3, 4, 6, 12)
 connectivityCheck: true
@@ -118,6 +118,13 @@ services:
         tag: "n8n"
         keywords: "automatisation workflow no-code intégration api"
         url: "https://n8n.dera.page/"
+      - name: "Bento PDF"
+        logo: "assets/bento.svg"
+        subtitle: "Gérez et organisez vos fichiers PDF facilement"
+        tag: "bento"
+        keywords: "pdf gestion organisation annotation"
+        url: "https://pdf.dera.page/"
+      
 
       # Abandonné
       # 
@@ -208,9 +215,9 @@ services:
       #   keywords: "réseau social et microblogging"
       #   url: "https://mastodon.insa.lol/public/local"
   
-  - name: "Divertissement"
-    icon: "fas fa-gamepad"
-    items:
+  # - name: "Divertissement"
+  #   icon: "fas fa-gamepad"
+  #   items:
       # Abandonné
       # 
       # - name: "Movies"
@@ -247,9 +254,9 @@ services:
       #   keywords: "musique et streaming"
       #   url: "https://fdroid.insa.lol/"
 
-      - name: "Stats"
-        logo: "assets/stats.jpg"
-        subtitle: "Consultez des statistiques variées sur l'école"
-        tag: "stats"
-        keywords: "statistiques et données"
-        url: "https://instagram.com/____genda"
+      # - name: "Stats"
+      #   logo: "assets/stats.jpg"
+      #   subtitle: "Consultez des statistiques variées sur l'école"
+      #   tag: "stats"
+      #   keywords: "statistiques et données"
+      #   url: "https://instagram.com/____genda"
