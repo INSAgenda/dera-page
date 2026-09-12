@@ -1,0 +1,57 @@
+name: Deploy
+
+on:
+  push:
+    branches: [master]
+
+permissions: {}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Start deployment
+        id: deployment
+        env:
+          AUTODEPLOY_API_KEY: ${{ secrets.AUTODEPLOY_API_KEY }}
+        run: |
+          deployment_id="$(curl --fail --silent --show-error --max-time 10 \
+            --request POST \
+            --header "Authorization: Bearer $AUTODEPLOY_API_KEY" \
+            https://autodeploy.simon1.dera.page/start/homer)"
+          case "$deployment_id" in
+            ''|*[!0-9]*)
+              echo "Auto-deploy returned an invalid deployment ID" >&2
+              exit 1
+              ;;
+          esac
+          echo "id=$deployment_id" >> "$GITHUB_OUTPUT"
+
+      - name: Wait for deployment
+        env:
+          AUTODEPLOY_API_KEY: ${{ secrets.AUTODEPLOY_API_KEY }}
+          DEPLOYMENT_ID: ${{ steps.deployment.outputs.id }}
+        run: |
+          while true; do
+            status="$(curl --fail --silent --show-error --max-time 10 \
+              --header "Authorization: Bearer $AUTODEPLOY_API_KEY" \
+              "https://autodeploy.simon1.dera.page/status/$DEPLOYMENT_ID")"
+            case "$status" in
+              queued|running)
+                sleep 5
+                ;;
+              success)
+                exit 0
+                ;;
+              failure)
+                echo "Auto-deploy failed" >&2
+                exit 1
+                ;;
+              *)
+                echo "Auto-deploy returned an invalid status" >&2
+                exit 1
+                ;;
+            esac
+          done
