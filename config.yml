@@ -124,40 +124,6 @@ services:
         tag: "bento"
         keywords: "pdf gestion organisation annotation"
         url: "https://pdf.dera.page/"
-      
-
-      # Abandonné
-      # 
-      # - name: "Wifi WPA"
-      #   logo: "assets/wifi.png"
-      #   subtitle: "Obtenez le mot de passe du wifi"
-      #   tag: "wifi"
-      #   keywords: "wifi et mot de passe"
-      #   url: "https://mastodon.insa.lol/@wifi"
-
-      # TODO: Romet
-      # 
-      # - name: "login-rememberer"
-      #   logo: "assets/login.svg"
-      #   subtitle: "Restez connectés pour toujours au CAS"
-      #   tag: "cas"
-      #   keywords: "login et mot de passe"
-      #   url: "https://github.com/Mubelotix/insa-login-rememberer"
-
-      # - name: "Search (en projet)"
-      #   logo: "assets/search.svg"
-      #   subtitle: "Recherchez sur tout le réseau privé"
-      #   tag: "search"
-      #   keywords: "moteur de recherche"
-
-      # TODO: Romet
-      # 
-      # - name: "Scan (abandonné)"
-      #   logo: "assets/scan.svg"
-      #   subtitle: "Listez les machines"
-      #   tag: "scan"
-      #   keywords: "liste les machines allumées pour vous y connecter en SSH"
-      #   url: "https://scan.insa.lol/"
 
   - name: "Social"
     icon: "fas fa-users"
@@ -168,24 +134,6 @@ services:
         tag: "matrix"
         keywords: "chat et messagerie instantanée"
         url: "https://matrix.dra.page/"
-
-      # Pas encore disponible
-      # 
-      # - name: "Instagram amélioré"
-      #   logo: "assets/instagram.svg"
-      #   subtitle: "Instagram sans publicités"
-      #   tag: "instagram"
-      #   keywords: "réseau social et photos"
-      #   url: "https://fdroid.insa.lol/"
-
-      # TODO: use https://github.com/crimera/piko
-      # 
-      # - name: Twitter amélioré
-      #   logo: "assets/twitter.svg"
-      #   subtitle: "Twitter sans publicités"
-      #   tag: "twitter"
-      #   keywords: "réseau social et microblogging"
-      #   url: "https://fdroid.insa.lol/"
 
       - name: "Stotra"
         logo: "assets/stotra.svg"
@@ -207,56 +155,3 @@ services:
         tag: "wakapi"
         keywords: "statistiques codage social classement temps de code"
         url: "https://wakapi.dera.page/"
-
-      # - name: "Mastodon (abandonné)"
-      #   logo: "assets/mastodon.svg"
-      #   subtitle: "Suivez l'actualité de l'école"
-      #   tag: "mastodon"
-      #   keywords: "réseau social et microblogging"
-      #   url: "https://mastodon.insa.lol/public/local"
-  
-  # - name: "Divertissement"
-  #   icon: "fas fa-gamepad"
-  #   items:
-      # Abandonné
-      # 
-      # - name: "Movies"
-      #   logo: "assets/movies.svg"
-      #   subtitle: "Regardez des films et séries gratuitement"
-      #   tag: "movies"
-      #   keywords: "films et séries gratuits"
-      #   url: "https://www.vidbinge.com/"
-
-      # Abandonné
-      # 
-      # - name: "Free-Picolo"
-      #   logo: "assets/picolo.webp"
-      #   subtitle: "Jouez à la version premium de Picolo gratuitement"
-      #   tag: "picolo"
-      #   keywords: "jeu de soirée et à boire"
-      #   url: "https://picolo.insa.lol/"
-
-      # Censuré
-      # 
-      # - name: "Youtube amélioré"
-      #   logo: "assets/youtube.svg"
-      #   subtitle: "Youtube sans publicités, lecture en arrière plan et passage automatique des sponsors"
-      #   tag: "youtube"
-      #   keywords: "vidéos et streaming"
-      #   url: "https://fdroid.insa.lol/"
-
-      # Censuré
-      # 
-      # - name: "Youtube Music amélioré"
-      #   logo: "assets/youtube-music.svg"
-      #   subtitle: "Youtube Music sans publicités et lecture en arrière plan"
-      #   tag: "youtube-music"
-      #   keywords: "musique et streaming"
-      #   url: "https://fdroid.insa.lol/"
-
-      # - name: "Stats"
-      #   logo: "assets/stats.jpg"
-      #   subtitle: "Consultez des statistiques variées sur l'école"
-      #   tag: "stats"
-      #   keywords: "statistiques et données"
-      #   url: "https://instagram.com/____genda"
