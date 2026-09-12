@@ -133,7 +133,7 @@ services:
         subtitle: "Discutez avec les autres étudiants"
         tag: "matrix"
         keywords: "chat et messagerie instantanée"
-        url: "https://matrix.dra.page/"
+        url: "https://matrix.dera.page/"
 
       - name: "Stotra"
         logo: "assets/stotra.svg"
